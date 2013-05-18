@@ -151,7 +151,7 @@ hr.soften {
 .top_line {
 	color:#666;
 	background-color:#ec5923;
-	height: 4px;
+	height: 2px;
 
 }
 .top_line p { 
@@ -309,7 +309,6 @@ h6 strong { font-weight:700 !important;}
 	}
 	.page_head .menu ul li a { box-shadow:none;}
 	
-	.page_head .current-menu-item { background:#ec5923 !important;}
 	.page_head .current-menu-item  a { color:#fff; text-shadow:none;}
 	
 	.page_head .menu li:hover > a{
