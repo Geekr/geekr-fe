@@ -21,6 +21,9 @@ a:hover {color:#000000;}
 .top_line a {color: #FFFFFF !important;}
 .top_line a:hover {color: #FFFFFF !important;}
 
+.header{position: fixed; z-index: 9999; width: 1240px;}
+.top-pusher{height: 70px;}
+
 .page_head {padding-top: 0px !important;
 padding-bottom: 0px !important;
 background-image: url("") !important;
