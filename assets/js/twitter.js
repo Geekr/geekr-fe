@@ -2,7 +2,7 @@
 JQTWEET = {
 	
 	// Set twitter username, number of tweets & id/class to append tweets
-	user: 'Orange_Idea_RU',
+	user: 'geekrweb',
 	numTweets: 2,
 	appendTo: '#jstwitter',
 
