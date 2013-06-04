@@ -187,9 +187,9 @@ border-radius: 0px 0px  0px 0px !important;
 
 .portfolio_item .view-first .mask {background-color: rgba(0,0,0, 0.35)}
 .portfolio_item .view a.info {background-color:#000000; background-image: url("http://www.orange-idea.com/assets/builder/zoom.png")}
-.portfolio_item .view a.info:hover {background-color:#AEC71E;}
+.portfolio_item .view a.info:hover {background-color:#ef7d1a;}
 .portfolio_item .view a.link {background-color:#000000; background-image: url("http://www.orange-idea.com/assets/builder/link.png")}
-.portfolio_item .view a.link:hover {background-color:#AEC71E;}
+.portfolio_item .view a.link:hover {background-color:#ef7d1a;}
 
 
 .descr {background-color:#f9f9f9; background-image: url(""); border:1px solid #ededed;}

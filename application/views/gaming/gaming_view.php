@@ -134,65 +134,62 @@
              </div>
              <div class="container-fluid">
                 <div class="row-fluid item" style="border-top:1px solid #ededed;border-bottom:1px solid #ededed;margin:15px 0;background-color:rgb(249, 249, 249);">
+                    <div class="span5 thumb">
+                        <div class="view view-first">
+                            <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
+                            <div class="mask">
+                                <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
+                                <a href="image-post.html" class="link"></a>
+                            </div>
+                        </div>
+                    </div>                    
                     <div class="span7 descripcion" style="padding:35px 10px 15px 25px;display:inline-block;">
-                        <h4><a href="#">ARMA3 Juego del año</a></h4>
+                        <h4><a href="image-post.html">Watch_Dogs Juego del año</a></h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
                             Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
-                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.
-                            Phasellus vel nibh vel lorem adipiscing pretium non vitae tortor. Morbi in malesuada enim.
+                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.                          
                         </p>
                     </div>                    
-                    <div class="span5 thumb">
-                        <div class="view view-first">
-                            <a href=""><img src="images/arma3.jpg" rel="prettyPhoto"></a>
-                            <div class="mask">
-                                <a href="images/arma3.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
-                                <a href="video-post.html" class="link"></a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="row-fluid item" style="border-top:1px solid #ededed;border-bottom:1px solid #ededed;margin:15px 0;background-color:rgb(249, 249, 249);">                  
+                <div class="row-fluid item" style="border-top:1px solid #ededed;border-bottom:1px solid #ededed;margin:15px 0;background-color:rgb(249, 249, 249);">
                     <div class="span5 thumb">
                         <div class="view view-first">
-                            <a href=""><img src="images/arma3.jpg" rel="prettyPhoto"></a>
+                            <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
                             <div class="mask">
-                                <a href="images/arma3.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
-                                <a href="video-post.html" class="link"></a>
+                                <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
+                                <a href="image-post.html" class="link"></a>
                             </div>
                         </div>
-                    </div>
+                    </div>                    
                     <div class="span7 descripcion" style="padding:35px 10px 15px 25px;display:inline-block;">
-                        <h4><a href="#">ARMA3 Juego del año</a></h4>
+                        <h4><a href="image-post.html">Watch_Dogs Juego del año</a></h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
                             Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
-                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.
-                            Phasellus vel nibh vel lorem adipiscing pretium non vitae tortor. Morbi in malesuada enim.
-                        </p>
-                    </div>                      
-                </div>
-                <div class="row-fluid item" style="border-top:1px solid #ededed;border-bottom:1px solid #ededed;margin: 15px 0;background-color:rgb(249, 249, 249);">
-                    <div class="span7 descripcion" style="padding:35px 10px 15px 25px;display:inline-block;">
-                        <h4><a href="#">ARMA3 Juego del año</a></h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
-                            Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
-                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.
-                            Phasellus vel nibh vel lorem adipiscing pretium non vitae tortor. Morbi in malesuada enim.
+                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.                          
                         </p>
                     </div>                    
+                </div>             
+                <div class="row-fluid item" style="border-top:1px solid #ededed;border-bottom:1px solid #ededed;margin:15px 0;background-color:rgb(249, 249, 249);">
                     <div class="span5 thumb">
                         <div class="view view-first">
-                            <a href=""><img src="images/arma3.jpg" rel="prettyPhoto"></a>
+                            <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
                             <div class="mask">
-                                <a href="images/arma3.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
-                                <a href="video-post.html" class="link"></a>
+                                <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
+                                <a href="image-post.html" class="link"></a>
                             </div>
                         </div>
-                    </div>
-                </div>                                              
+                    </div>                    
+                    <div class="span7 descripcion" style="padding:35px 10px 15px 25px;display:inline-block;">
+                        <h4><a href="image-post.html">Watch_Dogs Juego del año</a></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
+                            Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
+                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.                          
+                        </p>
+                    </div>                    
+                </div>                                            
             </div>
             <div class="container">
                 <div class="row">

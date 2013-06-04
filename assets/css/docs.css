@@ -530,7 +530,7 @@ h6 strong { font-weight:700 !important;}
 }
 .nolink a.info {margin-left:-17px !important;}
 .view a.info:hover {
-	background-color: rgb(174, 199, 30);
+	background-color: #ec5923;
 	border:1px solid;
 	border-color: #fff;
    -webkit-transition: all 0.2s linear;
@@ -590,7 +590,7 @@ h6 strong { font-weight:700 !important;}
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
-	background-color: rgba(0,0,0, 0.35);
+background-color: rgba(0,0,0, 0.35);
    -webkit-transition: all 0.4s ease-in-out;
    -moz-transition: all 0.4s ease-in-out;
    -o-transition: all 0.4s ease-in-out;

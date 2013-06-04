@@ -164,6 +164,7 @@
                                      data-start="800" 
                                      data-easing="easeOutExpo"  ><iframe src='http://player.vimeo.com/video/34134308?title=0&amp;byline=0&amp;portrait=0' width='420' height='314' style='width:420px;height:314px;'></iframe>
                                 </div>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -200,7 +201,7 @@
                                         <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
                                         <div class="mask">
                                             <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                            <a href="video-post.html" class="link"></a></div>
+                                            <a href="image-post.html" class="link"></a></div>
                                     </div>
                                     <div class="descr">
                                         <h5><a href="">Watch_Dogs</a></h5>
@@ -213,11 +214,11 @@
                                         <a href=""><img src="images/gallery/games2.jpg" rel="prettyPhoto"></a>
                                         <div class="mask">
                                             <a href="images/gallery/games2.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                            <a href="video-post.html" class="link"></a></div>
+                                            <a href="image-post.html" class="link"></a></div>
                                     </div>
                                     <div class="descr">
                                         <h5><a href="">Arma 3</a></h5>
-                                        <p class="clo">en <a href="video-post.html">Games</a> por <a href="#">Lorem</a></p>
+                                        <p class="clo">en <a href="image-post.html">Games</a> por <a href="#">Lorem</a></p>
                                     </div>   
                                 </div>
 
@@ -230,7 +231,7 @@
                                     </div>
                                     <div class="descr">
                                         <h5><a href="">Borderlands 2</a></h5>
-                                        <p class="clo">en <a href="#">Games</a> por <a href="#" style="color:rgb(168, 165, 165);">Lorem</a></p>
+                                        <p class="clo">en <a href="#">Games</a> por <a href="#">Lorem</a></p>
                                     </div>
                                 </div>
 
