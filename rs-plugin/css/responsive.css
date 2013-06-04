@@ -61,6 +61,7 @@ html {
 
 
   /*	THE MEDIA CHOOSER TO SET DIFFERENT SIZES OF THE CONTAINER DEPENDING ON THE SCREEN SIZE    */
+
    @media only screen and (min-width: 768px) and (max-width: 959px) {
 
  		  .banner, .bannercontainer			{	width:760px; height:395px;}

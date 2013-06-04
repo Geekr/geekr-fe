@@ -9,19 +9,19 @@
         <div class="tag_line">
             <div class="container">
                 <div class="row">
-                <div class="span12">
-                    <div class="welcome">
-                       <div class="social">
-                            <a href="#"><img src="assets/images/social_fb.png" alt="facebook"></a>
-                       </div>
-                       <div class="social">
-                            <a href=""><img src="assets/images/social_tw.png" alt="facebook"></a>
-                       </div>
-                       <div class="social">
-                            <a href=""><img src="assets/images/social_gplus.png" alt="facebook"></a>
-                       </div>                                              
+                    <div class="span12">
+                        <div class="welcome">
+                           <div class="social">
+                                <a href="#"><img src="assets/images/social_fb.png" alt="facebook"></a>
+                           </div>
+                           <div class="social">
+                                <a href=""><img src="assets/images/social_tw.png" alt="facebook"></a>
+                           </div>
+                           <div class="social">
+                                <a href=""><img src="assets/images/social_gplus.png" alt="facebook"></a>
+                           </div>                                              
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -167,7 +167,8 @@
                     </ul>
                 </div>
             </div>
-        </div>                 
+        </div>  
+    </div>               
         <!-- END REVOLUTION SLIDER -->
             
 
@@ -234,11 +235,12 @@
                                 </div>
 
                                  <div class="span3 portfolio_item block gaming">
-                                     <div class="view view-first">
+                                    <div class="view view-first">
                                         <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
                                         <div class="mask">
                                             <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
-                                            <a href="video-post.html" class="link"></a></div>
+                                            <a href="video-post.html" class="link"></a>
+                                        </div>
                                     </div>
                                     <div class="descr">
                                         <h5><a href="">Watch_dogs</a></h5>
