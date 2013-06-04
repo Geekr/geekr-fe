@@ -56,68 +56,13 @@
                         <!-- START MAIN MENU-->
                         <nav>
                         <ul class="menu">
-                            <li class="current-menu-item"><a href="index.html">Home</a></li>
-                            <li><a href="#">COMICS</a></li>
-                                <!--<ul class="sub-menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="contacts.html">Contacts</a></li>
-                                    <li><a href="simple-gallery-2.html">Simple Gallery 2</a></li>
-                                    <li><a href="simple-gallery-3.html">Simple Gallery 3</a></li>
-                                    <li><a href="simple-gallery-4.html">Simple Gallery 4</a></li>
-                                    <li><a href="404.html">404 Error</a></li>
-                                    <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                                    <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                                    <li><a href="both-sidebar.html">Both Sidebar</a></li>
-                                </ul>
-                            </li>-->
-                                
-                            <li><a href="#">TECH</a></li>
-                                 <!--<ul class="sub-menu">
-                                    <li><a href="big-image-right-sidebar.html">Big image + Right Sidebar</a></li>
-                                    <li><a href="big-image-left-sidebar.html">Big image + Left Sidebar</a></li>
-                                    <li><a href="mini-image-right-sidebar.html">Mini image + Right Sidebar</a></li>
-                                    <li><a href="mini-image-left-sidebar.html">Mini image + Left Sidebar</a></li>
-                                    <li><a href="text-post.html">Text Post</a></li>
-                                    <li><a href="image-post.html">Image post</a></li>
-                                    <li><a href="video-post.html">Video</a></li>
-                                    <li><a href="post-right-sidebar.html">Post + Right Sidebar</a></li>
-                                    <li><a href="post-left-sidebar.html">Post + Left Sidebar</a></li>
-                                </ul>
-                            </li>-->
-                            <li><a href="#">GAMING</a></li>
-                            <li><a href="#">CINE&TV</a></li>
-                                <!--<ul class="sub-menu">
-                                    <li><a href="2-columns-portfolio.html">2 Columns Portfolio</a></li>
-                                    <li><a href="3-columns-portfolio.html">3 Columns Portfolio</a></li>
-                                    <li><a href="4-columns-portfolio.html">4 Columns Portfolio</a></li>
-                                    <li><a href="6-columns-portfolio.html">6 Columns Portfolio</a></li>
-                                    <li><a href="portfolio-left-sidebar.html">Portfolio + Left Sidebar</a></li>
-                                    <li><a href="portfolio-right-sidebar.html">Portfolio + Right Sidebar</a></li>
-                                    <li><a href="item-single-image.html">Item - Single Image</a></li>
-                                    <li><a href="project-video.html">Project Video</a></li>
-                                    <li><a href="item-left-sidebar.html">Item - Left Sidebar</a></li>
-                                    <li><a href="item-right-sidebar.html">Item - Right Sidebar</a></li>
-                                    <li><a href="item-portrait.html">Item - Portrait</a></li>
-                                </ul>
-                            </li>-->
-                            <li><a href="#">ANIMANGA</a></li>
-
-                                <!--<ul class="sub-menu">
-                                    <li><a href="theme-grid.html">Theme Grid</a></li>
-                                    <li><a href="typography.html">Typography</a></li>
-                                    <li><a href="buttons.html">Buttons</a></li>
-                                    <li><a href="allerts.html">Allerts</a></li>
-                                    <li><a href="glyphicons.html">Glyphicons Icons</a></li>
-                                    <li><a href="badges-and-labels.html">Badges And Labels</a></li>
-                                    <li><a href="tabs.html">Tabs</a></li>
-                                    <li><a href="accordion.html">Accordion</a></li>
-                                    <li><a href="tstimonial-rotator.html">Testimonial Rotator</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="http://themeforest.net/user/OrangeIdea/portfolio?ref=OrangeIdea" target="_blank">GAMING</a></li>
-                            <li><a href="http://themeforest.net/user/OrangeIdea/portfolio?ref=OrangeIdea" target="_blank">RANDOM</a></li>
-                        </ul>-->
+                            <li <?php if ($this->uri->segment(1)=='home'){ echo 'class="current-menu-item"';} ?> > <a href="home">Home</a></li>
+                            <li <?php if ($this->uri->segment(1)=='comics'){ echo 'class="current-menu-item"';} ?> ><a href="#">COMICS</a></li>                             
+                            <li <?php if ($this->uri->segment(1)=='tech'){ echo 'class="current-menu-item"';} ?> ><a href="#">TECH</a></li>
+                            <li  <?php if ($this->uri->segment(1)=='gaming'){ echo 'class="current-menu-item"';} ?> ><a href="gaming">GAMING</a></li>
+                            <li <?php if ($this->uri->segment(1)=='cine'){ echo 'class="current-menu-item"';} ?> ><a href="#">CINE&TV</a></li>
+                            <li <?php if ($this->uri->segment(1)=='animanga'){ echo 'class="current-menu-item"';} ?> ><a href="#">ANIMANGA</a></li>
+                            <li <?php if ($this->uri->segment(1)=='random'){ echo 'class="current-menu-item"';} ?> ><a href="#">RANDOM</a></li>
                         </nav>
                         <!-- END MAIN MENU-->
                     </div>
