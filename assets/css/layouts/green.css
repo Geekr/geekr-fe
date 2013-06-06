@@ -16,6 +16,8 @@ a { color: #719430;}
 .filter_current { background-color:#719430; border-color:#719430;}
 .portfolio_item .view a.info:hover {background-color:#719430;}
 .portfolio_item .view a.link:hover {background-color:#719430;}
+.view a.info:hover {background-color:#719430;}
+.view a.link:hover {background-color:#719430;}
 .descr a { color: #719430;}
 .portfolio_sidebar a{ color:#719430;}
 .blog_item .meta a:hover { color:#719430;}

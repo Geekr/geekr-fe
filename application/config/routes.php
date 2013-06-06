@@ -42,6 +42,8 @@ $route['default_controller'] = "home";
 $route['404_override'] = '';
 $route['gaming/(:num)'] = "gaming";
 $route['gaming/(:num)/(:any)'] = "gaming";
+$route['tech/(:num)'] = "tech";
+$route['tech/(:num)/(:any)'] = "tech";
 
 
 /* End of file routes.php */

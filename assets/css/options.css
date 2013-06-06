@@ -48,8 +48,8 @@ padding-top: 25px;
 padding-bottom: 25px;
 }
 .page_head .menu ul {top: 85px !important; }
-.page_head .menu .current-menu-item a {color: #ef7d1a !important ;}
-
+.page_head .menu .current-menu-item a {color: #ffffff !important ;}
+.page_head .menu .current-menu-item {background: #ef7d1a !important ;}
 .page_head .menu li:hover { background: #444444 ;}
 .page_head .menu li:hover a { color: #ffffff ;}
 

@@ -2,6 +2,7 @@
 a { color: #2997ab;}
 .colored {color: #2997ab !important;}
 .top_line {background-color: #2997ab !important;}
+.page_head .menu .current-menu-item a {color: #FFF !important ;}
 .page_head .menu .current-menu-item {background: #2997ab !important ;}
 .page_head .menu ul li:hover a { background:#2997ab }
 .page_head .menu ul li:hover:first-child > a:after { border-bottom-color:#2997ab ;}
@@ -16,6 +17,8 @@ a { color: #2997ab;}
 .filter_current { background-color:#2997ab; border-color:#2997ab;}
 .portfolio_item .view a.info:hover {background-color:#2997ab;}
 .portfolio_item .view a.link:hover {background-color:#2997ab;}
+.view a.info:hover {background-color:#2997ab;}
+.view a.link:hover {background-color:#2997ab;}
 .descr a { color: #2997ab;}
 .portfolio_sidebar a{ color:#2997ab;}
 .blog_item .meta a:hover { color:#2997ab;}

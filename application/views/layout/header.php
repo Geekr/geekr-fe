@@ -20,6 +20,13 @@
     <link href="assets/css/wide_layout.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
     <link href="assets/css/options.css" rel="stylesheet">
+    <link <?php if ($this->uri->segment(1)=='comics'){ echo 'href="assets/css/layouts/cyan.css" rel="stylesheet"';} 
+          if ($this->uri->segment(1)=='tech'){ echo 'href="assets/css/layouts/cyan.css" rel="stylesheet"';}
+          if ($this->uri->segment(1)=='gaming'){ echo 'href="assets/css/layouts/blue.css" rel="stylesheet"';}  
+          if ($this->uri->segment(1)=='cine'){ echo 'href="assets/css/layouts/green.css" rel="stylesheet"';}
+          if ($this->uri->segment(1)=='animanga'){ echo 'href="assets/css/layouts/pink.css" rel="stylesheet"';}
+          if ($this->uri->segment(1)=='random'){ echo 'href="assets/css/layouts/grunge.css" rel="stylesheet"';}
+    ?>>
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <link href="assets/nivo/nivo-slider.css" media="screen" rel="stylesheet" type="text/css">
     <link href="assets/css/prettyPhoto.css" media="screen" rel="stylesheet" type="text/css">
@@ -57,12 +64,12 @@
                         <nav>
                         <ul class="menu">
                             <li <?php if ($this->uri->segment(1)=='home'){ echo 'class="current-menu-item"';} ?> > <a href="home">Home</a></li>
-                            <li <?php if ($this->uri->segment(1)=='comics'){ echo 'class="current-menu-item"';} ?> ><a href="#">COMICS</a></li>                             
-                            <li <?php if ($this->uri->segment(1)=='tech'){ echo 'class="current-menu-item"';} ?> ><a href="#">TECH</a></li>
+                            <li <?php if ($this->uri->segment(1)=='comics'){ echo 'class="current-menu-item"';} ?> ><a href="comics">COMICS</a></li>                             
+                            <li <?php if ($this->uri->segment(1)=='tech'){ echo 'class="current-menu-item"';} ?> ><a href="tech">TECH</a></li>
                             <li  <?php if ($this->uri->segment(1)=='gaming'){ echo 'class="current-menu-item"';} ?> ><a href="gaming">GAMING</a></li>
-                            <li <?php if ($this->uri->segment(1)=='cine'){ echo 'class="current-menu-item"';} ?> ><a href="#">CINE&TV</a></li>
-                            <li <?php if ($this->uri->segment(1)=='animanga'){ echo 'class="current-menu-item"';} ?> ><a href="#">ANIMANGA</a></li>
-                            <li <?php if ($this->uri->segment(1)=='random'){ echo 'class="current-menu-item"';} ?> ><a href="#">RANDOM</a></li>
+                            <li <?php if ($this->uri->segment(1)=='cine'){ echo 'class="current-menu-item"';} ?> ><a href="cine">CINE&TV</a></li>
+                            <li <?php if ($this->uri->segment(1)=='animanga'){ echo 'class="current-menu-item"';} ?> ><a href="animanga">ANIMANGA</a></li>
+                            <li <?php if ($this->uri->segment(1)=='random'){ echo 'class="current-menu-item"';} ?> ><a href="random">RANDOM</a></li>
                         </nav>
                         <!-- END MAIN MENU-->
                     </div>

@@ -147,7 +147,7 @@
                             </div>
                             </li>
                             <li data-transition="random" data-slotamount="7" data-masterspeed="300" >
-                            <img src="images/gallery/retro_stripe1.png" >
+                                <img src="images/gallery/retro_stripe1.png" >
                                                                     
                                 <div class="tp-caption fade"  
                                      data-x="0" 

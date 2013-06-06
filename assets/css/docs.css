@@ -310,6 +310,7 @@ h6 strong { font-weight:700 !important;}
 	.page_head .menu ul li a { box-shadow:none;}
 	
 	.page_head .current-menu-item  a { color:#fff; text-shadow:none;}
+	.page_head .current-menu-item { background:#ec5923 !important;}
 	
 	.page_head .menu li:hover > a{
 		color: #fff;

@@ -1,4 +1,34 @@
-<?php $this->load->view('layout/header'); ?>
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+        <meta charset="utf-8">
+        <title>Title</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Just another WordPress site" name="description"/>
+        <meta content="Builder &#8211; Resonsive Wordpress Theme" name="keywords"/>
+         
+        <!-- Le styles -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="assets/css/wide_layout.css" rel="stylesheet">
+        <link href="assets/css/docs.css" rel="stylesheet">
+        <link href="assets/css/options.css" rel="stylesheet">
+        <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+        <link href="assets/nivo/nivo-slider.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="assets/css/prettyPhoto.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800&#038;subset=latin%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%2Clatin-ext%2Ccyrillic&#038;ver=3.4.2" id="gOpenSans-css" media="all" rel="stylesheet" type="text/css"/>
+         
+        <!-- Le fav and touch icons -->
+        <link href="assets/builder/favicon.ico" rel="shortcut icon">
+         
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" type="text/css" href="assets/css/ie.css"/>
+        <![endif]-->
+</head>
 <body>
     <div class="wide_cont">
         <!-- START TOP LINE-->
@@ -103,10 +133,10 @@
                 <div class="row">
                 <div class="span12">
                     <div class="welcome">
-                        <h3><span class="colored">VIDEO POST</span></h3>
+                        <h3><span class="colored">TITULO POST</span></h3>
                         <a class="subpage_block" href="http://html.orange-idea.com/builder">Home </a>
                         <div class="subpage_breadcrumbs_dv"></div>
-                        <span>Video Post</span>
+                        <span>Gaming</span>
                     </div>
                 </div>
                 </div>
@@ -120,26 +150,21 @@
              <div class="container">
                  <div class="row">
                      <!--START BLOG CONTENT-->
-                     <div class="span8">
+                     <div class="span12">
                         <div class="row" style="margin-bottom:50px;">
                             <!-- POST IMAGE -->
 
                             <div class="span8">
                                <div class="row">
-                                <div class="span8 blog_item nolink" style="margin-bottom:0px;">
+                                <div class="span12 blog_item nolink" style="margin-bottom:0px;">
                                     <div class="view view-first">
-                                        <iframe src="http://player.vimeo.com/video/17775709?portrait=0&amp;color=AEC71E" width="100%" height="440" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                                        
-                                        <div class="mask">
-                                            <a href="images/gallery/8-1024x682.jpg" rel="prettyPhoto" title="Image title" class="info"></a>
-                                        </div>
-                                        
+                                        <img src="images/gallery/games1.jpg" alt="" />                                      
                                     </div>   
                                 </div>
                             </div> 
                             </div>
                             <!--POST TEXT-->
-                            <div class="span8">
+                            <div class="span12">
                                 <div class="blog_item">
                                     <!--Post info and Title-->
                                     <div class="blog_head">
@@ -149,22 +174,43 @@
                                     <!--Post content-->
                                     <div class="blog_post_item_description">
                                         <div class="blog_head blog_inner">
-                                            <h4>Video Post</h4>
+                                            <h4>Nullam Vitae Nibh Un Odiosters</h4>
                                             <div class="meta">
-                                                <span><b>By</b> <a href="#">Author</a></span>
-                                                <span><a href="#">DESIGN</a>, <a href="#">WORDPRESS</a></span>
-                                                <span class="last-item"><a href="#">1 Comments</a></span>
+                                                <span><b>Por</b> <a href="#">Autor</a></span>
+                                                <span><a href="#">FPS</a>, <a href="#">GAMING</a></span>
+                                                <!--<span class="last-item"><a href="#">1 Comments</a></span>-->
                                             </div>
                                         </div>        
                                         <p>
-                                            Quisque ligula ipsum, euismod a vulputate a, ultricies et elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendrerit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae.
+                                            Maecenas pulvinar blandit facilisis. Curabitur mollis nisl non purus ultrices convallis. Ut volutpat tristique nisl elementum ultricies. Etiam vitae neque leo. Donec eget turpis lorem. Nulla facilisi. Duis bibendum diam sed ligula euismod a interdum ipsum semper.
                                         </p>
-                                                        
+                                        <p>
+                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tellus odio. Curabitur aliquet vulputate nisl id tempor. Aliquam sit amet dictum sem. Donec id dolor vitae nisl molestie volutpat. Proin velit orci, sagittis sit amet dictum nec, faucibus elementum justo. Curabitur dignissim urna ultricies sapien mollis tincidunt. Vestibulum in pulvinar orci. Proin euismod nulla sed sapien mattis nec fermentum tortor fermentum. In faucibus lectus nisi. Aenean euismod, nulla pellentesque feugiat auctor, nulla lacus pulvinar sem, vel posuere nulla risus eget augue. Sed mattis auctor erat vel ultrices. Phasellus sagittis vestibulum elementum. Nam mollis blandit magna quis tempus. Duis ornare, nisl quis gravida laoreet, risus odio malesuada lorem, eu facilisis elit dolor a magna.
+                                        </p>
+                                        <p>
+                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tellus odio. Curabitur aliquet vulputate nisl id tempor. Aliquam sit amet dictum sem. Donec id dolor vitae nisl molestie volutpat. Proin velit orci, sagittis sit amet dictum nec, faucibus elementum justo. Curabitur dignissim urna ultricies sapien mollis tincidunt. Vestibulum in pulvinar orci. Proin euismod nulla sed sapien mattis nec fermentum tortor fermentum. In faucibus lectus nisi. Aenean euismod, nulla pellentesque feugiat auctor, nulla lacus pulvinar sem, vel posuere nulla risus eget augue. Sed mattis auctor erat vel ultrices. Phasellus sagittis vestibulum elementum. Nam mollis blandit magna quis tempus. Duis ornare, nisl quis gravida laoreet, risus odio malesuada lorem, eu facilisis elit dolor a magna.
+                                        </p>                                        
+                                        <div class="row">
+                                            <div class="span11 blog_item" style="margin-bottom:25px;">
+                                                <div class="view view-first">
+                                                    <img src="images/gallery/games1.jpg" alt="" />                                      
+                                                </div>   
+                                            </div>                                        
+                                        </div>
+                                        <p>
+                                            Maecenas pulvinar blandit facilisis. Curabitur mollis nisl non purus ultrices convallis. Ut volutpat tristique nisl elementum ultricies. Etiam vitae neque leo. Donec eget turpis lorem. Nulla facilisi. Duis bibendum diam sed ligula euismod a interdum ipsum semper.
+                                        </p>
+                                        <p>
+                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tellus odio. Curabitur aliquet vulputate nisl id tempor. Aliquam sit amet dictum sem. Donec id dolor vitae nisl molestie volutpat. Proin velit orci, sagittis sit amet dictum nec, faucibus elementum justo. Curabitur dignissim urna ultricies sapien mollis tincidunt. Vestibulum in pulvinar orci. Proin euismod nulla sed sapien mattis nec fermentum tortor fermentum. In faucibus lectus nisi. Aenean euismod, nulla pellentesque feugiat auctor, nulla lacus pulvinar sem, vel posuere nulla risus eget augue. Sed mattis auctor erat vel ultrices. Phasellus sagittis vestibulum elementum. Nam mollis blandit magna quis tempus. Duis ornare, nisl quis gravida laoreet, risus odio malesuada lorem, eu facilisis elit dolor a magna.
+                                        </p>
+                                        <p>
+                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tellus odio. Curabitur aliquet vulputate nisl id tempor. Aliquam sit amet dictum sem. Donec id dolor vitae nisl molestie volutpat. Proin velit orci, sagittis sit amet dictum nec, faucibus elementum justo. Curabitur dignissim urna ultricies sapien mollis tincidunt. Vestibulum in pulvinar orci. Proin euismod nulla sed sapien mattis nec fermentum tortor fermentum. In faucibus lectus nisi. Aenean euismod, nulla pellentesque feugiat auctor, nulla lacus pulvinar sem, vel posuere nulla risus eget augue. Sed mattis auctor erat vel ultrices. Phasellus sagittis vestibulum elementum. Nam mollis blandit magna quis tempus. Duis ornare, nisl quis gravida laoreet, risus odio malesuada lorem, eu facilisis elit dolor a magna.
+                                        </p> 
+                                        <span>tags:</span><span class="label" style="margin-left:5px;">Gaming</span><span class="label" style="margin-left:5px;">Fps</span>
                                     </div>
-
                                 </div>  
                             </div>
-                           <div class="span8">                                
+                           <div class="span12">                                
                                     <div class="share">
                                         <span style="float:left; margin-right:10px;">Share this Story:</span>
                                         <div style="float:left">
@@ -178,179 +224,188 @@
                                         </div>
                                     </div>
                                 </div>
-
                             <!-- ABOUT AUTHOR-->
-                            <div class="span8">
-                                <div class="blog_item_description" style="margin-top: 30px;">
-                                    <img class="img-polaroid" src="images/gallery/avatar.jpg" style="float: left; margin-right: 20px; width: 80px; height: 80px;" alt="Builder avatar"/>
-                                    <h5 style="margin-bottom: 5px; font-weight: 600 !important;">About The Author</h5>
-                                    Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendrerit.
-                                    <div class="clearfix"></div>
+                    <div class="span12">
+                        <div class="author" style="padding-top:25px;">
+                            <ul id="myTab" class="nav nav-tabs">
+                                <li class="active"><a href="#home" data-toggle="tab">Comentarios del autor</a></li>
+                                <li><a href="#profile" data-toggle="tab">Aspectos a favor</a></li>
+                                <li><a href="#private" data-toggle="tab">Aspectos en contra</a></li>
+                            </ul>
+                            
+                            <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane fade in active" id="home">
+                                    <a href="#"><img src="images/gallery/avatar.jpg" class="img-polaroid" align="left" style="margin-right: 20px; margin-bottom: 20px;"></a>
+                                    <p>My name is Alex and i am Web Designer. I love all design style.</p>                                     
+                                    <p> 
+                                        <b>Support requests</b> must go through this <a href="http://orange-idea.com/forum/">support forum</a>. Any comments, emails, Facebook messages or tweets which contains support requests will be directed back to this forum with a default message.
+                                    </p>
+
+                                </div>
+                                <div class="tab-pane fade" id="profile">
+                                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                                </div>
+                              
+                                <div class="tab-pane fade" id="private">
+                                    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
                                 </div>
                             </div>
-
-                            <!-- START COMMENTS -->
-                            <div class="span8">
-                                <div class="comments_div">
-                                    <h3 style="font-weight: 600 !important; text-transform: uppercase !important;">1 Comment:</h3>
-                                    <ul class="unstyled commentsul">
-                                        <li class="comment even thread-even depth-1">
-                                            <div class="seppp">
-                                                <div>
-                                                    <div class="blog_item_comments_description">
-                                                    
-                                                        <div class="hidden-phone" style="float: left; margin-right: 0px;">
-                                                            <img alt="" src="images/gallery/avatar-2.png" class="avatar img-polaroid avatar-70 photo avatar-default" height="70" width="70"/>
-                                                        </div>
-                                                        
-                                                        <h6 style="margin-bottom: 4px;">By <span class="colored"><a href="http://wordpress.org/" rel="external nofollow" class="url">Mr WordPress</a></span>
-                                                        <a style="color: inherit; padding-left: 7px;" href="http://html.orange-idea.com/builder/hello-world/#comment-26">12 Sep 2012</a>
-                                                        </h6>
-
-                                                        <hr style="margin-top: 0px; margin-bottom: 10px;"/>
-                                                        
-                                                        <div style="font-style: italic;">
-                                                            <p>Hi, this is a comment.
-                                                            <br/>
-                                                            To delete a comment, just log in and view the post's comments. There you will have the option to edit or delete them.
-                                                            </p>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-
-                                    <div id="respond" style="padding-top:40px;">
-                                        <h4 style="font-weight:600 !important; margin-bottom:12px;">Leave a Reply</h4>
-                                        <form class="form" action="" method="post" id="contact-form">
-                                        <input type="text" class="span4" style="margin-right:25px;" placeholder="Name" name="author" value="" />
-                                        <br>
-                                        <input  class="span4" type="text" placeholder="E-mail" name="email" value="" />
-                                        <textarea type="text" placeholder="Message" id="comment" name="comment" rows="5" style="width:98%"></textarea><br>
-                                        <button name="submit" id="submit_form" type=""  class="btn btn-small">Post comment</button>
-                                        </form>
-                                    </div>
-                            </div>
-
                         </div>
-                        
                     </div>
-                  </div>
-                 
-                    <!-- START SIDEBAR -->
-                    <div class="span4 blog_sidebar">
-                        <!-- FIRST WIDGET -->
-                        <div class="well">
-                                <h5 style="font-weight: 600; text-transform: uppercase !important;">Pay Atention</h5>
-                                <hr/>
-                                <div class="textwidget">
-                                    <div class="alert alert-block alert-success" style="margin-bottom: 0px;">
-                                        <h3 class="alert-heading">Oh snap! 50% SALE!</h3>
-                                        <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--SEARCH WIDGET-->
-                            <div class="well">
-                                <h5 style="font-weight: 600; text-transform: uppercase !important;">Lost something?</h5>
-                                <hr/>
-                                <form role="search" method="get" id="searchform" action="">
-                                <div>
-                                    <label class="screen-reader-text" for="s">Search for:</label>
-                                    <input type="text" value="" name="s" id="s"/>
-                                    <input type="submit" id="searchsubmit" value="Search"/>
-                                </div>
-                                </form>
-                            </div>
-
-                            <!-- Blog catories Widget -->
-                            <div class="well">
-                                <h5 style="font-weight: 600; text-transform: uppercase !important;">Blog categories</h5>
-                                <hr>
-                                <ul>
-                                     <li class="cat-item"><a href="#">Photography</a></li>
-                                     <li class="cat-item"><a href="#">Uncategorized</a></li>
-                                     <li class="cat-item"><a href="#">Videos</a></li>
-                                     <li class="cat-item"><a href="#">Wordpress</a></li>
-                                 </ul> 
-                            </div>
-
-                            <!--VIDEO WIDGET-->
-                            <div class="well">
-                                <h5 style="font-weight: 600; text-transform: uppercase !important;">Video widget</h5>
-                                <hr/>
-                                <div class="textwidget">
-                                    <iframe src="http://player.vimeo.com/video/16765716" width="100%" height="200" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                                </div>
-
-                            </div>
-
-                            <!--TAGS-->
-                            <div class="well">
-                                <h5 style="font-weight: 600; text-transform: uppercase !important;">Tag cloud</h5>
-                                <hr/>
-                                <div class="tagcloud">
-                                    <a href="#" class="tag-link-6" title="3 topics" style="font-size: 22pt;">Design</a>
-                                    <a href="#" class="tag-link-7" title="2 topics" style="font-size: 8pt;">Modern</a>
-                                    <a href="#" class="tag-link-8" title="2 topics" style="font-size: 8pt;">Responsive</a>
-                                </div>
-
-                            </div>
-
-                            <!--Recent Posts-->
-                            <div class="well">
-                                <h5 style="font-weight: 600; text-transform: uppercase !important;">Recent Posts</h5>
-                                <hr/>
-                                <ul class="recent-post-widget unstyled">
-                                    <li>
-                                        <a href="index.html" title="Hello world!" class="bg-link">Hello world!</a>
-                                            <div class="small-meta">
-                                            Dec 1, 2012 /
-                                            <a href="index.html#comments" title="Comment on Hello world!">1 Comment</a>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </li>
-                                    <li>
-                                        <a href="post-right-sidebar.html" title="Post + Right Sidebar" class="bg-link">Post + Right Sidebar</a>
-                                        <div class="small-meta">
-                                            Nov 30, 2012 /
-                                            <a href="post-right-sidebar.html#comments" title="Comment on Post + Right Sidebar">1 Comment</a>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </li>
-                                    <li>
-                                        <a href="video-post.html" title="Video Post" class="bg-link">Video Post</a>
-                                        <div class="small-meta">
-                                            Nov 29, 2012 /
-                                            <a href="video-post.html#comments" title="Comment on Video Post">1 Comment</a>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </li>
-                                    <li>
-                                        <a href="index.html" title="Nullam Vitae Nibh Un Odiosters" class="bg-link">Nullam Vitae Nibh Un Odiosters</a>
-                                        <div class="small-meta">
-                                            Nov 28, 2012 /
-                                            <a href="index.html#comments" title="Comment on Nullam Vitae Nibh Un Odiosters">1 Comment</a>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </li>
-                                    </ul>
-                            </div>
-
-                            <!--ADS WIDGET-->
-                            <div class="well">
-                                <h5 style="font-weight: 600; text-transform: uppercase !important;">Adds</h5>
-                                <hr/>
-                                <div class="textwidget">
-                                    <img src="images/gallery/aj_300x250_v1.gif" alt="">
-                                </div>
-
-                            </div>
-                    </div>
+                  </div>                
                 </div>
              </div>
          </div> 
+        <!--END MAIN CONTENT AREA-->
 
- <?php $this->load->view('layout/footer'); ?>       
+        <!--FOOTER-->
+
+        <!-- START TWITTER FEED -->
+        <div class="twitter-block">
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        <h6>Twitter Feed</h6>
+                        <p class="twitter-block-desc">Find out what"s happening, right now, with the people and organizations you care about.</p>
+                    </div>
+                    <br class="visiblephone">
+                    <div class="span9">
+                        <div class="twitter-block-well well">
+                        <div class="tweet"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END TWITTER FEED -->
+                
+        <!-- START WIDGET AREA AND SOCIAL ICONS -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="span3 soc_icons">
+                        <div>
+                            <img alt="" src="assets/img/logo-footer.png"><br>
+                            <a href="http://flickr.com/" target="_blank"><div class="icon_flickr"></div></a>
+                            <a href="http://plus.google.com/" target="_blank"><div class="icon_google"></div></a>
+                            <a href="http://facebook.com/" target="_blank"><div class="icon_facebook"></div></a>
+                            <a href="http://pinterest.com/" target="_blank"><div class="icon_pi"></div></a>
+                            <a href="http://twitter.com/" target="_blank"><div class="icon_t"></div></a>
+                            <a href="http://youtube.com/" target="_blank"><div class="icon_youtube"></div></a>
+                            <a href="http://linkedin.com/" target="_blank"><div class="icon_in"></div></a>
+                            <a href="http://deviantart.com/" target="_blank"><div class="icon_da"></div></a>
+                            <a href="http://www.skype.com/" target="_blank"><div class="icon_skype"></div></a>
+                            <a href="http://www.icq.com/" target="_blank"><div class="icon_icq"></div></a>
+                            <a href="http://envato.com/" target="_blank"><div class="icon_envato"></div></a>
+                            <a href="http://forrst.com/" target="_blank"><div class="icon_forrst"></div></a>
+                            <a href="http://www.bing.com/" target="_blank"><div class="icon_bing"></div></a>
+                            <a href="http://myspace.com/" target="_blank"><div class="icon_myspace"></div></a>
+                        </div>
+                    </div>
+    
+                    <div class="span3">
+                        <div class="textwidget">
+                            <div class="well">
+                            <h6>Builder Company</h6>Builder is designed to help people of all skill levels designer or developer, huge nerd or early beginner.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BEGIN WIDGET -->
+                    <div class="span3">
+                    <h6>Recent Posts</h6><hr>
+                        <ul class="recent-post-widget unstyled">
+                                                        <li><a href="big-image-right-sidebar.html" title="Hello world!" class="bg-link">Hello world!</a>
+                                <div class="small-meta">Dec 1, 2012 / <a href="big-image-right-sidebar.html" title="Comment on Hello world!">1 Comment</a></div>
+                                <!-- /small-meta -->
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <a class="bg-link" href="post-right-sidebar.html" title="Post + Right Sidebar">Post + Right Sidebar</a>
+                                <div class="small-meta">Nov 30, 2012 / <a href="post-right-sidebar.html" title="Comment on Post + Right Sidebar">1 Comment</a></div>
+                                <!-- /small-meta -->
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END WIDGET -->
+                    <!-- BEGIN CONTACT INFO -->
+                    <div class="span3">
+                    <h6>Contact Information</h6><hr>
+                        <div class="textwidget">
+                        <ul class="unstyled">
+                            <li><i class="icon-user icon-white"></i> +1 800 2000 600</li>
+                            <li><i class="icon-envelope icon-white"></i> contact@sitename.com</li>
+                            <li><i class="icon-map-marker icon-white"></i> 9930 124th Washington</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <!-- END CONTACT INFO -->
+                </div>
+            </div>
+        </div>
+        <!-- END WIDGET AREA AND SOCIAL ICONS -->
+                
+        <!--START BOTTOM LINE-->
+        <div class="bottom_line">
+            <div class="container">
+                <div class="row">
+                    <!-- START COPYRIGHT INFORMATION-->
+                    <div class="span6">
+                        <span class="copyright">Copyright 2012 Builder - Company. Design by <a href="http://themeforest.net/user/OrangeIdea?ref=OrangeIdea">OrangeIdea</a></span>
+                    </div>
+                    <!-- END COPYRIGHT INFORMATION-->
+                    <div class="span6">
+                        <!-- START FOOTER MENU-->
+                        <span class="copyright pull-right visible-desktop">
+                            <div class="menu-footer-menu-container">
+                                <ul class="unstyled footer_menu" id="menu-footer-menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="big-image-right-sidebar.html">Blog</a></li>
+                                    <li><a href="2-columns-portfolio.html">Portfolio</a></li>
+                                    <li><a href="contacts.html">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </span>
+                        <!-- END FOOTER MENU-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END BOTTOM LINE-->
+        <!--END FOOTER-->
+                 
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="assets/js/jquery.tweet.js"></script>
+        <script src="assets/js/google-code-prettify/prettify.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.easing.1.3.js"></script>
+        <script src="assets/js/superfish-menu/superfish.js"></script>
+        <script src="assets/js/jquery.nivo.slider.js"></script>
+        <script src="assets/js/jquery.prettyPhoto.js"></script>
+        <script src="assets/js/jflickrfeed.min.js"></script>
+        <script src="assets/js/testimonialrotator.js"></script>
+        <script src="assets/js/jquery.waitforimages.js"></script>
+        <script src="assets/js/jquery.isotope.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+         
+        <script>
+        /***************************************************
+                        TWITTER FEED
+        ***************************************************/
+            jQuery.noConflict()(function ($) {
+                $(document).ready(function () {
+            
+                    $(".tweet").tweet({
+                        count: 1,
+                        username: "Orange_Idea_RU",
+                        loading_text: "loading twitter..."
+                    });
+                });
+            });
+        </script>
+</body>
+</html>
