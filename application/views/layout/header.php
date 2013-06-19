@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<base href="<?=base_url();?>"/> 
 <html dir="ltr" lang="en-US">
 <head>
     <meta charset="utf-8">
@@ -20,7 +21,7 @@
     <link href="assets/css/wide_layout.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
     <link href="assets/css/options.css" rel="stylesheet">
-    <link <?php if ($this->uri->segment(1)=='comics'){ echo 'href="assets/css/layouts/cyan.css" rel="stylesheet"';} 
+    <link <?php if ($this->uri->segment(1)=='comics'){ echo 'href="assets/css/layouts/dark_blue.css" rel="stylesheet"';} 
           if ($this->uri->segment(1)=='tech'){ echo 'href="assets/css/layouts/cyan.css" rel="stylesheet"';}
           if ($this->uri->segment(1)=='gaming'){ echo 'href="assets/css/layouts/blue.css" rel="stylesheet"';}  
           if ($this->uri->segment(1)=='cine'){ echo 'href="assets/css/layouts/green.css" rel="stylesheet"';}
@@ -63,16 +64,18 @@
                         <!-- START MAIN MENU-->
                         <nav>
                         <ul class="menu">
-                            <li <?php if ($this->uri->segment(1)=='home'){ echo 'class="current-menu-item"';} ?> > <a href="home">Home</a></li>
-                            <li <?php if ($this->uri->segment(1)=='comics'){ echo 'class="current-menu-item"';} ?> ><a href="comics">COMICS</a></li>                             
-                            <li <?php if ($this->uri->segment(1)=='tech'){ echo 'class="current-menu-item"';} ?> ><a href="tech">TECH</a></li>
-                            <li  <?php if ($this->uri->segment(1)=='gaming'){ echo 'class="current-menu-item"';} ?> ><a href="gaming">GAMING</a></li>
-                            <li <?php if ($this->uri->segment(1)=='cine'){ echo 'class="current-menu-item"';} ?> ><a href="cine">CINE&TV</a></li>
-                            <li <?php if ($this->uri->segment(1)=='animanga'){ echo 'class="current-menu-item"';} ?> ><a href="animanga">ANIMANGA</a></li>
-                            <li <?php if ($this->uri->segment(1)=='random'){ echo 'class="current-menu-item"';} ?> ><a href="random">RANDOM</a></li>
+                            <li class="home"<?php if ($this->uri->segment(1)=='home'){ echo 'class="current-menu-item" style="background-color:#EF7D1A;"';} ?> > <a href="home">Home</a></li>
+                            <li class="comics"<?php if ($this->uri->segment(1)=='comics'){ echo 'class="current-menu-item" style="background-color:#4F1EC7"';} ?> ><a href="comics">COMICS</a></li>                             
+                            <li class="tech"<?php if ($this->uri->segment(1)=='tech'){ echo 'class="current-menu-item" style="background-color:#2997ab"';} ?> ><a href="tech">TECH</a></li>
+                            <li class="gaming"<?php if ($this->uri->segment(1)=='gaming'){ echo 'class="current-menu-item"style="background-color:#2d5c88"';} ?> ><a href="gaming">GAMING</a></li>
+                            <li class="cine"<?php if ($this->uri->segment(1)=='cine'){ echo 'class="current-menu-item"style="background-color:#719430"';} ?> ><a href="cine">CINE&TV</a></li>
+                            <li class="animanga"<?php if ($this->uri->segment(1)=='animanga'){ echo 'class="current-menu-item"style="background-color:#e44884"';} ?> ><a href="animanga">ANIMANGA</a></li>
+                            <li class="random"<?php if ($this->uri->segment(1)=='random'){ echo 'class="current-menu-item"style="background-color:#85742e"';} ?> ><a href="random">RANDOM</a></li>
                         </nav>
                         <!-- END MAIN MENU-->
                     </div>
                 </div>
             </div>
         </div>
+
+        

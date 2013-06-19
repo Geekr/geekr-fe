@@ -50,7 +50,117 @@ padding-bottom: 25px;
 .page_head .menu ul {top: 85px !important; }
 .page_head .menu .current-menu-item a {color: #ffffff !important ;}
 .page_head .menu .current-menu-item {background: #ef7d1a !important ;}
-.page_head .menu li:hover { background: #444444 ;}
+
+.page_head .menu li.home:hover { 
+background: #EF7D1A;
+-webkit-transition:background-color .4s ease-in;
+-moz-transition:background-color .4s ease-in;
+-ms-transition:background-color .4s ease-in;
+-o-transition:background-color .4s ease-in;
+transition:background-color .4s ease-in;
+}
+.page_head .menu li.home { 
+-webkit-transition:color .3s ease-out, background-color .2s ease-out;
+-moz-transition:color .3s ease-out, background-color .2s ease-out;
+-ms-transition:color .3s ease-out, background-color .2s ease-out;
+-o-transition:color .3s ease-out, background-color .2s ease-out;
+transition:color .3s ease-out, background-color .2s ease-out;
+}
+
+.page_head .menu li.comics:hover { 
+background: #4F1EC7;
+-webkit-transition:background-color .4s ease-in;
+-moz-transition:background-color .4s ease-in;
+-ms-transition:background-color .4s ease-in;
+-o-transition:background-color .4s ease-in;
+transition:background-color .4s ease-in;
+
+}
+
+.page_head .menu li.gaming:hover { 
+background: #2d5c88;
+-webkit-transition:background-color .3s ease-in;
+-moz-transition:background-color .3s ease-in;
+-ms-transition:background-color .3s ease-in;
+-o-transition:background-color .3s ease-in;
+transition:background-color .3s ease-in;
+}
+.page_head .menu li.gaming{
+
+-webkit-transition:color .2s ease-out, background-color .2s ease-out;
+-moz-transition:color .2s ease-out, background-color .2s ease-out;
+-ms-transition:color .2s ease-out, background-color .2s ease-out;
+-o-transition:color .2s ease-out, background-color .2s ease-out;
+transition:color .2s ease-out, background-color .2s ease-out;
+}
+.page_head .menu li.tech:hover { 
+background: #2997ab;
+-webkit-transition:background-color .4s ease-in;
+-moz-transition:background-color .4s ease-in;
+-ms-transition:background-color .4s ease-in;
+-o-transition:background-color .4s ease-in;
+transition:background-color .4s ease-in;
+}
+
+.page_head .menu li.tech { 
+-webkit-transition:color .2s ease-out, background-color .2s ease-out;
+-moz-transition:color .2s ease-out, background-color .2s ease-out;
+-ms-transition:color .2s ease-out, background-color .2s ease-out;
+-o-transition:color .2s ease-out, background-color .2s ease-out;
+transition:color .2s ease-out, background-color .2s ease-out;
+}
+.page_head .menu li.cine:hover { 
+background: #719430;
+-webkit-transition:background-color .4s ease-in;
+-moz-transition:background-color .4s ease-in;
+-ms-transition:background-color .4s ease-in;
+-o-transition:background-color .4s ease-in;
+transition:background-color .4s ease-in;
+}
+
+.page_head .menu li.cine { 
+-webkit-transition:color .2s ease-out, background-color .2s ease-out;
+-moz-transition:color .2s ease-out, background-color .2s ease-out;
+-ms-transition:color .2s ease-out, background-color .2s ease-out;
+-o-transition:color .2s ease-out, background-color .2s ease-out;
+transition:color .2s ease-out, background-color .2s ease-out;
+}
+
+.page_head .menu li.animanga:hover { 
+background: #e44884;
+-webkit-transition:background-color .4s ease-in;
+-moz-transition:background-color .4s ease-in;
+-ms-transition:background-color .4s ease-in;
+-o-transition:background-color .4s ease-in;
+transition:background-color .4s ease-in;
+}
+
+.page_head .menu li.animanga { 
+-webkit-transition:color .2s ease-out, background-color .2s ease-out;
+-moz-transition:color .2s ease-out, background-color .2s ease-out;
+-ms-transition:color .2s ease-out, background-color .2s ease-out;
+-o-transition:color .2s ease-out, background-color .2s ease-out;
+transition:color .2s ease-out, background-color .2s ease-out;
+}
+.page_head .menu li.random:hover { 
+background: #85742e;
+-webkit-transition:background-color .4s ease-in;
+-moz-transition:background-color .4s ease-in;
+-ms-transition:background-color .4s ease-in;
+-o-transition:background-color .4s ease-in;
+transition:background-color .4s ease-in;
+}
+
+.page_head .menu li.random { 
+-webkit-transition:color .2s ease-out, background-color .2s ease-out;
+-moz-transition:color .2s ease-out, background-color .2s ease-out;
+-ms-transition:color .2s ease-out, background-color .2s ease-out;
+-o-transition:color .2s ease-out, background-color .2s ease-out;
+transition:color .2s ease-out, background-color .2s ease-out;
+}
+
+
+
 .page_head .menu li:hover a { color: #ffffff ;}
 
 .page_head .menu ul .current-menu-item a{ color: #ffffff !important;}

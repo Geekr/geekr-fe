@@ -92,123 +92,48 @@
         <!--MAIN CONTENT AREA-->
         <div class="main_content_area">
              <div class="container inner_content">
-                    <!--START RECOMENDADOS CONTENT-->                  
+                    <!--START RECOMENDADOS CONTENT-->
+                <?php foreach($fav->result() as $row): ?>                  
                 <div class="row">                                   
-                    <div class="span4 portfolio_item block gaming recomendado">
+                    <div class="span4 portfolio_item block <?=$row->categoria?> recomendado">
                         <div class="view view-first">
-                            <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
+                            <a href=""><img src="images/blog/<?=$row->categoria?>/<?=$row->slug?>/<?=$row->image?>.jpg" rel="prettyPhoto"></a>
                             <div class="mask">
-                                <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                <a href="images/gallery/games1.jpg" class="link"></a></div>
+                                <a href="images/blog/<?=$row->categoria?>/<?=$row->slug?>/<?=$row->image?>.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
+                                <a href="images/blog/<?=$row->categoria?>/<?=$row->slug?>/<?=$row->image?>.jpg" class="link"></a></div>
                         </div>
                         <div class="descr">
-                            <h5><a href="">Summer Time</a></h5>
-                            <p class="clo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id egestas magna. Aliquam pharetra gravida velit varius lacinia. Donec sollicitudin velit et nibh tincidunt convallis. Nunc a fringilla purus.</p>
+                            <h5><a href="<?=$row->categoria?>/ver_post/<?=$row->slug?>"><?=$row->short_title?></a></h5>
+                            <p class="clo"><?=$row->mid_description?></p>
                         </div>
                     </div>
-                    <div class="span4 portfolio_item block gaming recomendado">
-                        <div class="view view-first">
-                            <a href=""><img src="images/gallery/games2.jpg" rel="prettyPhoto"></a>
-                            <div class="mask">
-                                <a href="images/gallery/games2.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                <a href="images/gallery/games2.jpg" class="link"></a></div>
-                        </div>
-                        <div class="descr">
-                            <h5><a href="">Summer Time</a></h5>
-                            <p class="clo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id egestas magna. Aliquam pharetra gravida velit varius lacinia. Donec sollicitudin velit et nibh tincidunt convallis. Nunc a fringilla purus.</p>
-                        </div>
-                    </div>
-                    <div class="span4 portfolio_item block gaming recomendado">
-                        <div class="view view-first">
-                            <a href=""><img src="images/gallery/games3.jpg" rel="prettyPhoto"></a>
-                            <div class="mask">
-                                <a href="images/gallery/games3.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                <a href="images/gallery/gammes3.jpg" class="link"></a></div>
-                        </div>
-                        <div class="descr">
-                            <h5><a href="">Summer Time</a></h5>
-                            <p class="clo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id egestas magna. Aliquam pharetra gravida velit varius lacinia. Donec sollicitudin velit et nibh tincidunt convallis. Nunc a fringilla purus.</p>
-                        </div>
-                    </div>                                                
+                    <?php endforeach; ?>
                 </div>                
              </div>
              <div class="container-fluid">
+                <?php foreach($posts->result() as $row): ?>
                 <div class="row-fluid item" style="border-top:1px solid #ededed;border-bottom:1px solid #ededed;margin:15px 0;background-color:rgb(249, 249, 249);">
                     <div class="span5 thumb">
                         <div class="view view-first">
-                            <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
+                            <a href=""><img src="images/blog/<?=$row->categoria?>/<?=$row->slug?>/<?=$row->image?>.jpg" rel="prettyPhoto"></a>
                             <div class="mask">
-                                <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
-                                <a href="image-post.html" class="link"></a>
+                                <a href="images/blog/<?=$row->categoria?>/<?=$row->slug?>/<?=$row->image?>.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
+                                <a href="gaming/ver_post/<?=$row->slug?>" class="link"></a>
                             </div>
                         </div>
                     </div>                    
                     <div class="span6 descripcion" style="padding:35px 10px 15px 25px;display:inline-block;">
-                        <h4><a href="image-post.html">Watch_Dogs Juego del año</a></h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
-                            Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
-                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
-                            Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
-                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.                            
-                        </p>
+                        <h4><a href="gaming/ver_post/<?=$row->slug?>"><?=$row->mid_title?></a></h4>
+                        <p><?=$row->mid_description?></p>
                     </div>                    
                 </div>
-                <div class="row-fluid item" style="border-top:1px solid #ededed;border-bottom:1px solid #ededed;margin:15px 0;background-color:rgb(249, 249, 249);">
-                    <div class="span5 thumb">
-                        <div class="view view-first">
-                            <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
-                            <div class="mask">
-                                <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
-                                <a href="image-post.html" class="link"></a>
-                            </div>
-                        </div>
-                    </div>                    
-                    <div class="span6 descripcion" style="padding:35px 10px 15px 25px;display:inline-block;">
-                        <h4><a href="image-post.html">Watch_Dogs Juego del año</a></h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
-                            Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
-                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
-                            Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
-                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.                            
-                        </p>
-                    </div>                    
-                </div>             
-                <div class="row-fluid item" style="border-top:1px solid #ededed;border-bottom:1px solid #ededed;margin:15px 0;background-color:rgb(249, 249, 249);">
-                    <div class="span5 thumb">
-                        <div class="view view-first">
-                            <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
-                            <div class="mask">
-                                <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
-                                <a href="image-post.html" class="link"></a>
-                            </div>
-                        </div>
-                    </div>                    
-                    <div class="span6 descripcion" style="padding:35px 10px 15px 25px;display:inline-block;">
-                        <h4><a href="image-post.html">Watch_Dogs Juego del año</a></h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
-                            Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
-                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices ultricies molestie.
-                            Morbi sodales venenatis urna eu adipiscing. Aliquam dolor justo, vulputate ut dapibus sed, luctus eu justo.
-                            Maecenas vestibulum augue viverra mi feugiat id cursus sapien porttitor. Nunc quis purus lacus, vitae bibendum leo.                            
-                        </p>
-                    </div>                    
-                </div>                                            
+                <?php endforeach; ?>                                         
             </div>
             <div class="container">
                 <div class="row">
                     <div class="span12">
                         <section style="padding:0px !important;float:right;">                         
-                            <div class="pride_pg">
-                                <span class="page-numbers current">1</span>
-                                <a href="#" class="page-numbers">2</a>
-                                <a href="#" class="next page-numbers">Next</a>
-                            </div>
+                                <?=$this->pagination->create_links();?>
                         </section>   
                     </div>           
                 </div>
@@ -218,3 +143,5 @@
 
         <!--END MAIN CONTENT AREA-->
 <?php $this->load->view('layout/footer'); ?>
+
+

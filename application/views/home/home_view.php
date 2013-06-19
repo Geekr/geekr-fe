@@ -195,110 +195,20 @@
                      <div class="row">
                          <div class="span12">
                             <div class="row" id="portfolio" style="position: relative; overflow: hidden; height: 1157px;">
-
-                                <div class="span3 portfolio_item block gaming">
+                                <?php foreach($posts->result() as $row): ?>
+                                <div class="span3 portfolio_item block <?=$row->categoria?>">
                                     <div class="view view-first">
-                                        <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
+                                        <a href=""><img src="images/blog/<?=$row->categoria?>/<?=$row->slug?>/<?=$row->image?>.jpg" rel="prettyPhoto"></a>
                                         <div class="mask">
-                                            <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
+                                            <a href="images/blog/<?=$row->categoria?>/<?=$row->slug?>/<?=$row->image?>.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
                                             <a href="image-post.html" class="link"></a></div>
                                     </div>
                                     <div class="descr">
-                                        <h5><a href="">Watch_Dogs</a></h5>
-                                        <p class="clo">en <a href="#">Games</a> por <a href="#">Lorem</a></p>
+                                        <h5><a href="<?=$row->categoria?>/ver_post/<?=$row->slug?>"><?=$row->short_title?></a></h5>
+                                        <p class="clo">en <a href="#"><?=$row->categoria?></a> por <a href="#"><?=$row->nombre_autor?></a></p>
                                     </div>
                                 </div>
-
-                                <div class="span3 portfolio_item block gaming">
-                                     <div class="view view-first">
-                                        <a href=""><img src="images/gallery/games2.jpg" rel="prettyPhoto"></a>
-                                        <div class="mask">
-                                            <a href="images/gallery/games2.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                            <a href="image-post.html" class="link"></a></div>
-                                    </div>
-                                    <div class="descr">
-                                        <h5><a href="">Arma 3</a></h5>
-                                        <p class="clo">en <a href="image-post.html">Games</a> por <a href="#">Lorem</a></p>
-                                    </div>   
-                                </div>
-
-                                <div class="span3 portfolio_item block gaming">
-                                     <div class="view view-first">
-                                        <a href=""><img src="images/gallery/games3.jpg" rel="prettyPhoto"></a>
-                                        <div class="mask">
-                                            <a href="images/gallery/games3.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                            <a href="video-post.html" class="link"></a></div>
-                                    </div>
-                                    <div class="descr">
-                                        <h5><a href="">Borderlands 2</a></h5>
-                                        <p class="clo">en <a href="#">Games</a> por <a href="#">Lorem</a></p>
-                                    </div>
-                                </div>
-
-                                 <div class="span3 portfolio_item block gaming">
-                                    <div class="view view-first">
-                                        <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
-                                        <div class="mask">
-                                            <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Portada game" class="info"></a>
-                                            <a href="video-post.html" class="link"></a>
-                                        </div>
-                                    </div>
-                                    <div class="descr">
-                                        <h5><a href="">Watch_dogs</a></h5>
-                                        <p class="clo">en <a href="#">Games</a> por <a href="#">Lorem</a></p>
-                                    </div>
-                                </div>
-
-                                <div class="span3 portfolio_item block design">
-                                     <div class="view view-first">
-                                        <a href=""><img src="images/gallery/5.jpg" rel="prettyPhoto"></a>
-                                        <div class="mask">
-                                            <a href="images/gallery/5.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                            <a href="video-post.html" class="link"></a></div>
-                                    </div>
-                                    <div class="descr">
-                                        <h5><a href="">Another Work</a></h5>
-                                        <p class="clo">Few words about project</p>
-                                    </div>
-                                </div>
-
-                                <div class="span3 portfolio_item block design html-templates">
-                                     <div class="view view-first">
-                                        <a href=""><img src="images/gallery/6.jpg" rel="prettyPhoto"></a>
-                                        <div class="mask">
-                                            <a href="images/gallery/6.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                            <a href="images/gallery/6.jpg" class="link"></a></div>
-                                    </div>
-                                    <div class="descr">
-                                        <h5><a href="">Cool Ring</a></h5>
-                                        <p class="clo">Few words about project</p>
-                                    </div>
-                                </div>
-
-                                <div class="span3 portfolio_item block wordpress">
-                                     <div class="view view-first">
-                                        <a href=""><img src="images/gallery/71.jpg" rel="prettyPhoto"></a>
-                                        <div class="mask">
-                                            <a href="images/gallery/71.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                            <a href="images/gallery/71.jpg" class="link"></a></div>
-                                    </div>
-                                    <div class="descr">
-                                        <h5><a href="">Item Right SIdebar</a></h5>
-                                        <p class="clo">Few words about project</p>
-                                    </div>
-                                </div>
-                                <div class="span3 portfolio_item block html-templates">
-                                     <div class="view view-first">
-                                        <a href=""><img src="images/gallery/9.jpg" rel="prettyPhoto"></a>
-                                        <div class="mask">
-                                            <a href="images/gallery/9.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                            <a href="images/gallery/9.jpg" class="link"></a></div>
-                                    </div>
-                                    <div class="descr">
-                                        <h5><a href="">Item Left Sidebar</a></h5>
-                                        <p class="clo">Few words about project</p>
-                                    </div>
-                                </div>
+                                <?php endforeach; ?>
                             </div>    
                         </div>
                     </div>
@@ -307,44 +217,22 @@
                         <div class="span12" style="margin-top:10px;">                            
                             <h5>Posts Recomendados</h5>                        
                             <hr style="margin-top:0;"></hr>     
-                        </div>
-                                        
-                        <div class="span4 portfolio_item block gaming recomendado">
+                        </div>                       
+                            
+                        <?php foreach($fav->result() as $row): ?>                                       
+                        <div class="span4 portfolio_item block <?=$row->categoria?> recomendado">
                             <div class="view view-first">
-                                <a href=""><img src="images/gallery/games1.jpg" rel="prettyPhoto"></a>
+                                <a href=""><img src="images/blog/<?=$row->categoria?>/<?=$row->slug?>/<?=$row->image?>.jpg" rel="prettyPhoto"></a>
                                 <div class="mask">
-                                    <a href="images/gallery/games1.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                    <a href="images/gallery/games1.jpg" class="link"></a></div>
+                                    <a href="images/blog/<?=$row->categoria?>/<?=$row->slug?>/<?=$row->image?>.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
+                                    <a href="<?=$row->categoria?>/ver_post/<?=$row->slug?>" class="link"></a></div>
                             </div>
                             <div class="descr">
-                                <h5><a href="">Summer Time</a></h5>
-                                <p class="clo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id egestas magna. Aliquam pharetra gravida velit varius lacinia. Donec sollicitudin velit et nibh tincidunt convallis. Nunc a fringilla purus.</p>
+                                <h5><a href="<?=$row->categoria?>/ver_post/<?=$row->slug?>"><?=$row->short_title?></a></h5>
+                                <p class="clo"><?=$row->mid_description?></p>
                             </div>
-                        </div>
-                        <div class="span4 portfolio_item block gaming recomendado">
-                            <div class="view view-first">
-                                <a href=""><img src="images/gallery/games2.jpg" rel="prettyPhoto"></a>
-                                <div class="mask">
-                                    <a href="images/gallery/games2.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                    <a href="images/gallery/games2.jpg" class="link"></a></div>
-                            </div>
-                            <div class="descr">
-                                <h5><a href="">Summer Time</a></h5>
-                                <p class="clo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id egestas magna. Aliquam pharetra gravida velit varius lacinia. Donec sollicitudin velit et nibh tincidunt convallis. Nunc a fringilla purus.</p>
-                            </div>
-                        </div>
-                        <div class="span4 portfolio_item block gaming recomendado">
-                            <div class="view view-first">
-                                <a href=""><img src="images/gallery/games3.jpg" rel="prettyPhoto"></a>
-                                <div class="mask">
-                                    <a href="images/gallery/games3.jpg" rel="prettyPhoto" title="Item-Landscape" class="info"></a>
-                                    <a href="images/gallery/gammes3.jpg" class="link"></a></div>
-                            </div>
-                            <div class="descr">
-                                <h5><a href="">Summer Time</a></h5>
-                                <p class="clo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id egestas magna. Aliquam pharetra gravida velit varius lacinia. Donec sollicitudin velit et nibh tincidunt convallis. Nunc a fringilla purus.</p>
-                            </div>
-                        </div>                                                
+                        </div>                        
+                        <?php endforeach; ?>                                              
                     </div>  
                 <section style="padding:0px !important;">
                     <div class="pride_bg"></div>
